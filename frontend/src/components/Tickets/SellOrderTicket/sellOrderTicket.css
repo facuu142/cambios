@@ -1,0 +1,58 @@
+.popup-content {
+  background-color: white;
+  display: flex;
+  max-width: 770px; 
+
+}
+
+.left-side, .right-side {
+  flex: 1;
+  padding: 30px;
+}
+.right-side {
+  min-width: 390px; /* Por ejemplo, puedes ajustar este valor según tus necesidades */
+
+  background-color: white;
+  border-right: 1px solid #ccc; 
+  p{
+      color: black;
+
+  }
+  h2{
+      color: black;
+  }
+}
+.left-side {
+  min-width: 390px; /* Por ejemplo, puedes ajustar este valor según tus necesidades */
+
+  background-color: black;
+  border-right: 1px solid #ccc; 
+  p{
+      color: white;
+
+  }
+  h2{
+      color: white;
+  }
+}
+
+.line {
+  height: 2px;
+  background-color: rgba(66, 66, 66, 4);
+
+}
+
+
+.close-button {
+  font-size: 18px;
+  margin-left: 97%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+p{
+  margin-top: 5%;
+  color: rgba(73, 73, 73, 0.683); 
+
+}
